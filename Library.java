@@ -38,7 +38,7 @@ public class Library {
             break; 
         }
     }
-    f(foundIndex == -1)
+    if(foundIndex == -1)
         return false;
     for(int i=foundIndex; i<numOfTextBooks-1; ++i)
         textBookList[i] = textBookList[i+1];
